@@ -23,7 +23,7 @@
         <provider
             android:name=".data.LogProvider"
             android:permission="com.pabloperotti.android.tools.permissions.usage"
-            android:authorities="com.pabloperotti.android.tools.log.provider"
+            android:authorities="com.pabloperotti.android.tools.log.data.provider"
             android:exported="true" >
         </provider>
 

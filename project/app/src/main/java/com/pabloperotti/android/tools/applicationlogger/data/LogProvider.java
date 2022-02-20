@@ -133,7 +133,7 @@ public class LogProvider extends ContentProvider {
     public static final class DataContract {
 
         public static final String SCHEME = "content://";
-        public static final String AUTHORITY = "com.pabloperotti.android.tools.data.provider";
+        public static final String AUTHORITY = "com.pabloperotti.android.tools.log.data.provider";
         public static final String PATH_ITEMS = "/items";
         public static final String PATH_ITEM = "/items/";
         public static final Uri CONTENT_URI = Uri.parse(SCHEME + AUTHORITY + PATH_ITEMS);
